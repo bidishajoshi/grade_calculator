@@ -412,3 +412,90 @@ input.invalid { border-color: #E24B4A !important; }
   .row-header { grid-template-columns: 1fr 90px 70px 28px; }
   .subject-table th, .subject-table td { padding: 8px 0.75rem; }
 }
+/* ================= BUTTON HOVER ================= */
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 200, 255, 0.3);
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+}
+
+/* ================= INPUT FIELDS ================= */
+input, select, textarea {
+  transition: all 0.3s ease;
+  border: 1px solid #333;
+}
+
+input:hover, select:hover, textarea:hover {
+  border-color: #00c8ff;
+  box-shadow: 0 0 8px rgba(0, 200, 255, 0.3);
+}
+
+/* ================= CARD HOVER ================= */
+.auth-card {
+  transition: all 0.3s ease;
+}
+
+.auth-card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+}
+
+/* ================= JOB CARD (SWIPE UI) ================= */
+.job-card {
+  transition: all 0.3s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 20px 50px rgba(0, 200, 255, 0.25);
+}
+
+/* ================= LINKS ================= */
+a {
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: #00c8ff;
+  text-decoration: underline;
+}
+
+/* ================= FILE UPLOAD ================= */
+.file-upload-label {
+  transition: all 0.3s ease;
+}
+
+.file-upload-label:hover {
+  border-color: #00c8ff;
+  background: rgba(0, 200, 255, 0.05);
+  cursor: pointer;
+}
+
+/* ================= BADGE / TAG ================= */
+.role-badge {
+  transition: all 0.3s ease;
+}
+
+.role-badge:hover {
+  background: #00c8ff;
+  color: black;
+}
+
+/* ================= NAVBAR ================= */
+.navbar a {
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #00c8ff;
+  border-bottom: 2px solid #00c8ff;
+}
+
+/* ================= SMOOTH TRANSITIONS GLOBAL ================= */
+* {
+  scroll-behavior: smooth;
+}
